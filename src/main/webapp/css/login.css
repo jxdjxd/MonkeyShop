@@ -1,0 +1,71 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    background: url("../img/temp/19.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.login img{
+   width: auto;
+   margin: 2px, 2px, 2px, 2px;
+}
+
+.login form p {
+	margin-top: 15px;
+}
+
+.login form{
+    position: fixed;
+    top: 5%;
+    right: 140px;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 10;
+    background: #fff;
+}
+
+.msg-warn {
+    position: relative;
+    background: #fef4e5;
+    color: #666;
+    display: inline-block;
+    border: 1px solid #f6c090;
+    padding: 3px 31px 3px 31px;
+    line-height: 15px;
+    height: auto;
+}
+
+.login form {
+    top: 18%;
+    border: 1px solid #dbdbdb;
+    width: 440px;
+    height: 400px;
+}
+
+.login form input[type="password"], .login form input[type="text"] {
+	border: 1px solid #dbdbdb;
+    padding-left: 20px;
+    width: 50%;
+    height: 10%;
+}
+
+.login p.txt {  /*最后一个p标签 */
+    width: 280px;
+    margin: 10px auto 0;
+    text-align: right;
+}
+
+p.txt a {
+    color: #666;
+    text-decoration: underline;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+
+   
